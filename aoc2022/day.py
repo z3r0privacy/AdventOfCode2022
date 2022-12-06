@@ -25,10 +25,13 @@ class Day:
         with open(path, "r") as f:
             return f.read()
 
-    def read_file_lines(self):
+    def read_file_lines(self, strip=True):
         path = os.path.join("Inputs", f"{self.Day}.txt")
         with open(path, "r") as f:
-            lines = [l.strip() for l in f.readlines()]
+            if strip:
+                lines = [l.strip() for l in f.readlines()]
+            else:
+                lines = [l for l in f.readlines()]
             while not lines[-1]:
                 lines = lines[:-1]
             return lines

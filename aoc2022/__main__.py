@@ -46,5 +46,10 @@ def main():
             continue
         print_day(d)
 
+def test():
+    return False
+
+
 if __name__ == "__main__":
-    main()
+    if not test():
+        main()
