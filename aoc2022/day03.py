@@ -1,4 +1,4 @@
-from day import Day
+from aoc2022.day import Day
 
 class Day03 (Day):
     def __init__(self):
