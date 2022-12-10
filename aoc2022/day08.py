@@ -3,7 +3,7 @@ from aoc2022.day import Day
 class Day08 (Day):
     def __init__(self):
         super().__init__(__name__)
-        self._isdone = False
+        self._isdone = True
         input = self.read_file_lines()
         self._trees = [[int(x) for x in line] for line in input]
 
