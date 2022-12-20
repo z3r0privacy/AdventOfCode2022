@@ -19,3 +19,4 @@ from aoc2022.day16 import Day16
 from aoc2022.day17 import Day17
 from aoc2022.day18 import Day18
 from aoc2022.day19 import Day19
+from aoc2022.day20 import Day20
