@@ -12,7 +12,7 @@ from aoc2022.day09 import Day09
 from aoc2022.day10 import Day10
 from aoc2022.day11 import Day11
 from aoc2022.day12 import Day12
-#from aoc2022.day13 import Day13
+from aoc2022.day13 import Day13
 from aoc2022.day14 import Day14
 #from aoc2022.day15 import Day15
 from aoc2022.day16 import Day16
@@ -22,3 +22,5 @@ from aoc2022.day19 import Day19
 from aoc2022.day20 import Day20
 from aoc2022.day21 import Day21
 from aoc2022.day22 import Day22
+from aoc2022.day23 import Day23
+from aoc2022.day24 import Day24
