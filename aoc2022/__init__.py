@@ -24,3 +24,4 @@ from aoc2022.day21 import Day21
 from aoc2022.day22 import Day22
 from aoc2022.day23 import Day23
 from aoc2022.day24 import Day24
+from aoc2022.day25 import Day25
